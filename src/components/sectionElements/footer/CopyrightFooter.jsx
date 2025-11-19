@@ -7,7 +7,7 @@ function CopyrightFooter() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
+    <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col">
       <p className="w-full opacity-75">
         {t("footer.copyrightLine", { year: currentYear, name: infos.name })}
       </p>

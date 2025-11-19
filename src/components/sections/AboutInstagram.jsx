@@ -49,14 +49,14 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />
           <div>
-            <RedesSociais
+            {/* <RedesSociais
               tiktok={true}
               instagram={true}
               facebook={true}
               linkedin={true}
               x={true}
               youtube={true}
-            />
+            /> */}
             <Button
               aria-label={t("hero.ctaButtonAriaLabel")}
               icon={
