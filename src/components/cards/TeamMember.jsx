@@ -14,7 +14,7 @@ export default function TeamMember(props) {
   } = props;
 
   return (
-    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[22%] text-white">
+    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[30%] desktop2:w-[25%] text-white">
       <div className="">
         <img
           alt={alt}
