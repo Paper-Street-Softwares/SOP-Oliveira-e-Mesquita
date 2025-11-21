@@ -14,7 +14,8 @@ export default function TeamMember(props) {
     alt,
     name,
     role,
-    modal = true,
+    work,
+    modal = false,
     modalContent,
     modalTitle,
   } = props;
@@ -28,12 +29,15 @@ export default function TeamMember(props) {
   return (
     <div className="flex flex-col items-center p-[10px] h-auto w-full tablet1:w-[45%] desktop1:w-[23%] bg-neutral-100 rounded-lg">
       <img alt={alt} src={img} className="  mb-[24px] bg-cover rounded-md" />
-      <h1 className="mb-[8px] text-title1 leading-6 text-center font-bold">
+      <h1 className=" text-title1 leading-6 text-center font-bold">
         {name}
       </h1>
-      <div className="desktop2:h-auto desktop2:mb-[20px] flex flex-col items-center justify-center ">
-        <p className="text-center phone1:mb-4 text-paragraph1 text-black desktop2:mb-[20px] tablet1:w-[80%]">
+      <div className="desktop2:h-auto flex flex-col items-center justify-center ">
+        <p className="mb-[16px] text-center text-paragraph2 text-black tablet1:w-90%]">
           {role}
+        </p>
+        <p className="text-center text-paragraph2 text-black tablet1:w-90%]">
+          {work}
         </p>
         {modal && (
           <Button

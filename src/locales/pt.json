@@ -45,7 +45,7 @@
     },
     "card3": {
       "title": "Direito Bancário",
-      "subtitle": "Revisão de juros, superendividamento e defesa do consumidor.",
+      "subtitle": "Defesa do consumidor, fraudes, negativação indevida.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -85,7 +85,7 @@
     },
     "miniTag": "QUEM É A OLIVEIRA E MESQUITA ADVOCACIA",
     "title": "Nossa trajetória",
-    "subtitle": "Uma advocacia humana, acessível e feita para quem sempre fica por último.",
+    "subtitle": "Muito além do processo: cuidamos de cada etapa com segurança, respeito e a tranquilidade que você merece.",
     "buttonModalLabelAbout": "Continuar lendo",
     "paragraph": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando.",
     "modal": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando. <br/><br/> Começamos 100% online, com estrutura enxuta, mas com a visão clara de entregar uma advocacia próxima, transparente e realmente acessível para quem muitas vezes se sente esquecido pelo sistema. <br/><br/> Criamos a OM porque acreditamos que a justiça não deve ser distante. Nosso compromisso é oferecer apoio humano e transformador para homens e mulheres que buscam seus direitos com dignidade e respeito. <br/><br/>",
@@ -101,6 +101,25 @@
       "labelX": "Siga-me no X",
       "labelTikTok": "Siga-me no TikTok",
       "labelWhatsapp": "Entre em contato agora"
+    }
+  },
+  "team": {
+    "miniTag": "NOSSO TIME",
+    "title": "Excelência que nasce da união",
+    "subtitle": "A união dos sócios combina experiência e estratégia para um atendimento jurídico ético e orientado aos melhores resultados.",
+    "team1": {
+      "title": "Dr. Sávio Mesquita <br/> <span class=\"text-[12px]\">OAB - SP nº 512.647</span>",
+      "subtitle": "Sócio-fundador",
+      "description": "<span class=\"text-[12px] font-bold\">Atuação: </span>Direito do Trabalho e Direito Bancário",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "team2": {
+      "title": " Dra. Wandaline de Oliveira<br/> <span class=\"text-[12px]\">OAB - SP nº 531.810</span>",
+      "subtitle": "Sócia-fundadora ",
+      "description": "<span class=\"text-[12px] font-bold\">Atuação: </span>Direito de Família e Direito do Trabalho",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
     }
   },
   "news": {
