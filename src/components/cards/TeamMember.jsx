@@ -1,13 +1,3 @@
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import Button from "../interactives/Button";
-import { MoveRight } from "lucide-react";
-import content, { abstractions } from "../../content/content";
-
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
-
 export default function TeamMember(props) {
   const {
     img,
@@ -15,54 +5,32 @@ export default function TeamMember(props) {
     name,
     role,
     work,
-    modal = false,
-    modalContent,
-    modalTitle,
+    icon1,
+    link1,
+    icon2,
+    link2,
+    icon3,
+    link3,
   } = props;
 
-  const [visible, setVisible] = useState(false);
-
-  const onClick = () => {
-    setVisible(true);
-  };
-
   return (
-    <div className="flex flex-col items-center p-[10px] h-auto w-full tablet1:w-[45%] desktop1:w-[23%] bg-neutral-100 rounded-lg">
-      <img alt={alt} src={img} className="  mb-[24px] bg-cover rounded-md" />
-      <h1 className=" text-title1 leading-6 text-center font-bold">
-        {name}
-      </h1>
-      <div className="desktop2:h-auto flex flex-col items-center justify-center ">
-        <p className="mb-[16px] text-center text-paragraph2 text-black tablet1:w-90%]">
-          {role}
-        </p>
-        <p className="text-center text-paragraph2 text-black tablet1:w-90%]">
+    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[22%] text-white">
+      <div className="">
+        <img
+          alt={alt}
+          src={img}
+          className="w-[215px] h-[215px] desktop1:w-auto desktop1:h-auto rounded-full mb-[24px] "
+        ></img>
+      </div>
+      <h1 className="text-paragraph5 font-bold text-center">{name}</h1>
+      <p className="text-center text-paragraphLight tablet1:w-full mb-[8px] text-paragraph2">
+        {role}
+      </p>
+      <div className="desktop2:h-[48px] flex flex-col justify-center">
+        <p className="text-center text-paragraph2 text-paragraphLight tablet1:w-[70%] m-auto">
           {work}
         </p>
-        {modal && (
-          <Button
-            className=""
-            size="small"
-            label="Saiba mais"
-            onClick={onClick}
-            removeAnchor={true}
-            removeTarget={true}
-            animation={true}
-            icon={<MoveRight />}
-          />
-        )}
       </div>
-
-      <Dialog
-        className="font-secondFont"
-        header={modalTitle}
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "700px" }}
-        breakpoints={{ "1023px": "90vw" }}
-      >
-        <div className="text-paragraph3">{modalContent}</div>
-      </Dialog>
     </div>
   );
 }
