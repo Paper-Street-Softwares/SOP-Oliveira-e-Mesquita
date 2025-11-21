@@ -22,11 +22,12 @@ export default function TeamMember(props) {
           className="w-[215px] h-[215px] desktop1:w-auto desktop1:h-auto rounded-full mb-[24px] "
         ></img>
       </div>
-      <h1 className="text-paragraph5 leading-5 font-bold text-center">{name}</h1>
-      <p className="text-center text-paragraphLight tablet1:w-full mb-[8px] text-paragraph2">
+       <p className="text-center text-paragraphLight tablet1:w-full mb-[8px] text-paragraph2">
         {role}
       </p>
-      <div className="desktop2:h-[48px] flex flex-col justify-center">
+      <h1 className="text-paragraph5 leading-5 font-bold text-center">{name}</h1>
+     
+      <div className="desktop2:h-[48px] mt-2 flex flex-col justify-center">
         <p className="text-center text-paragraph2 text-paragraphLight tablet1:w-[70%] m-auto">
           {work}
         </p>
