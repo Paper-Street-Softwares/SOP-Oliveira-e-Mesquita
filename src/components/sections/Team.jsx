@@ -28,10 +28,22 @@ export default function Team() {
               <TeamMember
                 img={content.texts.team.members.member1.img.img}
                 alt={content.texts.team.members.member1.img.alt}
-                name={t("team.team1.title")}
-                role={t("team.team1.subtitle")}
+                name={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team1.title"),
+                    }}
+                  ></span>
+                }
+                role={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team1.subtitle"),
+                    }}
+                  ></span>
+                }
                 modalTitle={t("team.team1.title")}
-                modalContent={
+                work={
                   <span
                     dangerouslySetInnerHTML={{
                       __html: t("team.team1.description"),
@@ -42,41 +54,25 @@ export default function Team() {
               <TeamMember
                 img={content.texts.team.members.member2.img.img}
                 alt={content.texts.team.members.member2.img.alt}
-                name={t("team.team2.title")}
-                role={t("team.team2.subtitle")}
+                name={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team2.title"),
+                    }}
+                  ></span>
+                }
+                role={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team2.subtitle"),
+                    }}
+                  ></span>
+                }
                 modalTitle={t("team.team2.title")}
-                modalContent={
+                work={
                   <span
                     dangerouslySetInnerHTML={{
                       __html: t("team.team2.description"),
-                    }}
-                  ></span>
-                }
-              />
-              <TeamMember
-                img={content.texts.team.members.member3.img.img}
-                alt={content.texts.team.members.member3.img.alt}
-                name={t("team.team3.title")}
-                role={t("team.team3.subtitle")}
-                modalTitle={t("team.team3.title")}
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team3.description"),
-                    }}
-                  ></span>
-                }
-              />
-              <TeamMember
-                img={content.texts.team.members.member4.img.img}
-                alt={content.texts.team.members.member4.img.alt}
-                name={t("team.team4.title")}
-                role={t("team.team4.subtitle")}
-                modalTitle={t("team.team4.title")}
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team4.description"),
                     }}
                   ></span>
                 }
