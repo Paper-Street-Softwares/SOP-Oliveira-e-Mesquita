@@ -56,7 +56,7 @@ export const theme = {
     fontFamily: {
       mainFont: ["Houstiq", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Houstiq", "sans-serif"],
+      secondFont: ["Inter", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
