@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -41,8 +42,17 @@ body {
 /* fim da shapeDiv */
 
 @font-face {
+  font-family: "Houstiq";
+  src: url("./assets/fonts/houstiq-font/Houstiq/OpenType-TT/Houstiq.ttf")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Poppins";
-  src: url("/src/assets/fonts/Poppins-Regular.woff2") format("woff2");
+  src: url("./fonts/Poppins-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

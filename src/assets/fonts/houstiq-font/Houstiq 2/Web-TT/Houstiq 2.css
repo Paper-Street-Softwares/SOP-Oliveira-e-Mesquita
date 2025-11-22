@@ -1,0 +1,11 @@
+/* Webfont: Houstiq2-Regular */@font-face {
+    font-family: 'Houstiq2';
+    src: url('Houstiq 2.eot'); /* IE9 Compat Modes */
+    src: url('Houstiq 2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Houstiq 2.woff') format('woff'), /* Modern Browsers */
+         url('Houstiq 2.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
