@@ -41,8 +41,17 @@ body {
 /* fim da shapeDiv */
 
 @font-face {
+  font-family: "Houstiq";
+  src: url("./assets/fonts/houstiq-font/Houstiq/OpenType-TT/Houstiq.ttf")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Poppins";
-  src: url("/src/assets/fonts/Poppins-Regular.woff2") format("woff2");
+  src: url("./fonts/Poppins-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
